@@ -1,0 +1,31 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.ballesteroslaraev2.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/createFragment"
+        android:name="com.example.ballesteroslaraev2.CreateFragment"
+        android:label="fragment_create"
+        tools:layout="@layout/fragment_create" />
+
+    <fragment
+        android:id="@+id/editFragment"
+        android:name="com.example.ballesteroslaraev2.EditFragment"
+        android:label="fragment_edit"
+        tools:layout="@layout/fragment_edit" />
+
+    <fragment
+        android:id="@+id/deleteFragment"
+        android:name="com.example.ballesteroslaraev2.DeleteFragment"
+        android:label="fragment_delete"
+        tools:layout="@layout/fragment_delete" />
+
+</navigation>

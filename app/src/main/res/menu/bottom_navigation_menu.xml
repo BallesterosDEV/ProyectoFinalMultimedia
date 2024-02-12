@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_login"
+        android:title="Exit"
+        android:icon="@drawable/exit" />
+    <item
+        android:id="@+id/navigation_home"
+        android:title="Home"
+        android:icon="@drawable/star" />
+    <item
+        android:id="@+id/navigation_create"
+        android:title="Create"
+        android:icon="@drawable/mushroom" />
+    <item
+        android:id="@+id/navigation_edit"
+        android:title="Edit"
+        android:icon="@drawable/caja" />
+    <item
+        android:id="@+id/navigation_delete"
+        android:title="Delete"
+        android:icon="@drawable/coin" />
+</menu>
