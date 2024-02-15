@@ -9,6 +9,10 @@ Lo primero es crear nuestra aplicación es mostrar una ventana por la que el usu
   ![image](https://github.com/BallesterosDEV/ProyectoFinalMultimedia/assets/118269269/13e6b5bc-bddc-4b0c-b804-45a79fcaa0cb)
 
 - Crear la clase java relacionada con el archivo xml de la interfaz, que busca en la base de datos un usuario y contraseña que coincidan con los que se han introducido en los campos de entrada, notificando al usuario por medio de toasts sobre el éxito o fracaso del login. De momento vamos a tener un acto de fe y creernos que por alguna parte hay una base de datos con una tabla `usuarios` que contenga el nombre de usuario y la contraseña.
+
+- También se ha realizado el inicio de sesión con google, utilizando FireBase con el SAH-1
+  ![image](https://github.com/BallesterosDEV/ProyectoFinalMultimedia/assets/118269269/1024cb74-0b3b-4a95-868e-a62d23c9ab97)
+
   
 ![image](https://github.com/BallesterosDEV/ProyectoFinalMultimedia/assets/118269269/72dbf3ee-719a-427c-8c0b-edf8c01e1b0d)
 
